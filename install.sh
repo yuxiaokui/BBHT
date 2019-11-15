@@ -14,7 +14,6 @@ apt-get install -y python-pip
 apt-get install -y python-dnspython
 apt-get install -y git
 apt-get install -y rename
-apt-get install -y xargs
 
 
 #install go
@@ -120,4 +119,4 @@ echo -e "\n\n\n\n\n\n\n\n\n\n\nDone! All tools are set up in ~/tools"
 
 ls -la
 
-echo "Please buy me a tee!!!"
+echo "Please buy me a tea!!!"
