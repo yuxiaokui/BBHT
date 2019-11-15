@@ -1,7 +1,5 @@
 #!/bin/bash
-apt-get -y update
-apt-get -y upgrade
-
+apt-get update
 
 apt-get install -y libcurl4-openssl-dev
 apt-get install -y libssl-dev
@@ -21,8 +19,8 @@ apt-get install -y xargs
 
 #install go
 echo "Installing Golang"
-wget https://dl.google.com/go/go1.12.7.linux-amd64.tar.gz
-sudo tar -xvf go1.12.7.linux-amd64.tar.gz
+wget https://studygolang.com/dl/golang/go1.13.4.linux-amd64.tar.gz
+sudo tar -xvf go1.13.4.linux-amd64.tar.gz
 sudo mv go /usr/local
 export GOROOT=/usr/local/go
 export GOPATH=$HOME/go
