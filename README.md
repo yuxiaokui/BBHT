@@ -7,12 +7,8 @@ Bug Bounty Hunting Tools is a script to install the most popular tools used whil
 - dirsearch
 - JSParser
 - knockpy
-- lazys3
-- recon_profile
 - sqlmap-dev
 - Sublist3r
-- teh_s3_bucketeers
-- virtual-host-discovery
 - wpscan
 - webscreenshot
 - Massdns
@@ -28,5 +24,8 @@ Bug Bounty Hunting Tools is a script to install the most popular tools used whil
 # Installing
 - git clone https://github.com/yuxiaokui/bbht.git
 - cd bbht
-- chmod +x install.sh
-- ./install.sh
+- docker build -t bbht .
+
+
+#Please Buy Me A Tea!
+![]()
