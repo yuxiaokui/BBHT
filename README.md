@@ -27,6 +27,6 @@ Bug Bounty Hunting Tools is a script to install the most popular tools used whil
 - docker build -t bbht .
 
 
-# Please Buy Me A Tea!
+# Please Buy Me A Ice Red Tea!
 
 ![](https://github.com/yuxiaokui/BBHT/blob/master/1.png?raw=true)
