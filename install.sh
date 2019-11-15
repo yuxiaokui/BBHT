@@ -27,7 +27,9 @@ export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 echo 'export GOROOT=/usr/local/go' >> ~/.bash_profile
 echo 'export GOPATH=$HOME/go'	>> ~/.bash_profile			
 echo 'export PATH=$GOPATH/bin:$GOROOT/bin:$PATH' >> ~/.bash_profile	
-source ~/.bash_profile
+
+export GO111MODULE=on
+export GOPROXY=https://goproxy.io
 
 #create a tools folder in ~/
 mkdir ~/tools
